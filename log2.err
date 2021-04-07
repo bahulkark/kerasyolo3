@@ -1,0 +1,207 @@
+nohup: ignoring input
+2021-03-17 13:27:23.078338: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+Using TensorFlow backend.
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_1 due to mismatch in shape ((3, 3, 3, 32) vs (64, 32, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_1 due to mismatch in shape ((32,) vs (64,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_2 due to mismatch in shape ((3, 3, 32, 64) vs (32, 64, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_2 due to mismatch in shape ((64,) vs (32,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_3 due to mismatch in shape ((1, 1, 64, 32) vs (64, 32, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_3 due to mismatch in shape ((32,) vs (64,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_4 due to mismatch in shape ((3, 3, 32, 64) vs (128, 64, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_4 due to mismatch in shape ((64,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_5 due to mismatch in shape ((3, 3, 64, 128) vs (64, 128, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_5 due to mismatch in shape ((128,) vs (64,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_6 due to mismatch in shape ((1, 1, 128, 64) vs (128, 64, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_6 due to mismatch in shape ((64,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_7 due to mismatch in shape ((3, 3, 64, 128) vs (64, 128, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_7 due to mismatch in shape ((128,) vs (64,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_8 due to mismatch in shape ((1, 1, 128, 64) vs (128, 64, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_8 due to mismatch in shape ((64,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_9 due to mismatch in shape ((3, 3, 64, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_9 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_10 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_10 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_11 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_11 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_12 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_12 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_13 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_13 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_14 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_14 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_15 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_15 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_16 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_16 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_17 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_17 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_18 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_18 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_19 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_19 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_20 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_20 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_21 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_21 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_22 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_22 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_23 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_23 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_24 due to mismatch in shape ((3, 3, 128, 256) vs (128, 256, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_24 due to mismatch in shape ((256,) vs (128,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_25 due to mismatch in shape ((1, 1, 256, 128) vs (256, 128, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_25 due to mismatch in shape ((128,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_26 due to mismatch in shape ((3, 3, 128, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_26 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_27 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_27 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_28 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_28 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_29 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_29 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_30 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_30 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_31 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_31 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_32 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_32 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_33 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_33 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_34 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_34 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_35 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_35 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_36 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_36 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_37 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_37 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_38 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_38 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_39 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_39 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_40 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_40 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_41 due to mismatch in shape ((3, 3, 256, 512) vs (256, 512, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_41 due to mismatch in shape ((512,) vs (256,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_42 due to mismatch in shape ((1, 1, 512, 256) vs (512, 256, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_42 due to mismatch in shape ((256,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_43 due to mismatch in shape ((3, 3, 256, 512) vs (1024, 512, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_43 due to mismatch in shape ((512,) vs (1024,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_44 due to mismatch in shape ((3, 3, 512, 1024) vs (512, 1024, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_44 due to mismatch in shape ((1024,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_45 due to mismatch in shape ((1, 1, 1024, 512) vs (1024, 512, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_45 due to mismatch in shape ((512,) vs (1024,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_46 due to mismatch in shape ((3, 3, 512, 1024) vs (512, 1024, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_46 due to mismatch in shape ((1024,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_47 due to mismatch in shape ((1, 1, 1024, 512) vs (1024, 512, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_47 due to mismatch in shape ((512,) vs (1024,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_48 due to mismatch in shape ((3, 3, 512, 1024) vs (512, 1024, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_48 due to mismatch in shape ((1024,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_49 due to mismatch in shape ((1, 1, 1024, 512) vs (1024, 512, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_49 due to mismatch in shape ((512,) vs (1024,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_50 due to mismatch in shape ((3, 3, 512, 1024) vs (512, 1024, 1, 1)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_50 due to mismatch in shape ((1024,) vs (512,)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer conv2d_51 due to mismatch in shape ((1, 1, 1024, 512) vs (1024, 512, 3, 3)).
+  weight_values[i].shape))
+/home/mtech_3/anaconda3/envs/simp/lib/python3.5/site-packages/keras/engine/topology.py:3462: UserWarning: Skipping loading of weights for layer batch_normalization_51 due to mismatch in shape ((512,) vs (1024,)).
+  weight_values[i].shape))
